@@ -2,14 +2,14 @@ import Image from 'next/image';
 
 export default function Gallery() {
     const images = [
-        '/images/IMG_01.jpg',
-        '/images/IMG_02.jpg',
-        '/images/IMG_03.jpg',
-        '/images/IMG_04.jpg',
-        '/images/IMG_05.jpg',
-        '/images/IMG_06.jpg',
-        '/images/IMG_07.jpg',
-        '/images/IMG_08.jpg',
+        '/images/IMG_01.JPG',
+        '/images/IMG_02.JPG',
+        '/images/IMG_03.JPG',
+        '/images/IMG_04.JPG',
+        '/images/IMG_05.JPG',
+        '/images/IMG_06.JPG',
+        '/images/IMG_07.JPG',
+        '/images/IMG_08.JPG',
     ];
 
     return (
