@@ -1,26 +1,44 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Off-white/Paper background */
+  --background: #FDFBF7;
+  /* Dark Green text */
+  --foreground: #1F3D2B;
+
+  /* Custom Palette */
+  --color-primary: #1F3D2B;
+  --color-card: #EDE7DD;
+  --color-highlight: #0D3B66;
+  --color-marron: #5A1E2D;
+
+  /* Font */
+  --font-mono: "Martian Mono", monospace;
 }
+
+/* .martian-mono {
+  font-family: "Martian Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-primary: var(--color-primary);
+  --color-card: var(--color-card);
+  --color-highlight: var(--color-highlight);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Use Martian Mono as the default sans and mono font for this technical aesthetic */
+  --font-sans: var(--font-mono);
+  --font-mono: var(--font-mono);
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-mono);
 }
