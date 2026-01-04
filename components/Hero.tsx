@@ -4,7 +4,7 @@ export default function Hero() {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-[#1F3D2B] mb-4">
                 Welcome
                 <span className="block text-2xl md:text-4xl mt-2 font-normal text-[#1F3D2B]/80">
-                    to <span className="text-[#0D3B66] font-bold">'Momentum Team'</span>
+                    to <span className="text-[#0D3B66] font-bold">&apos;Momentum Team&apos;</span>
                 </span>
             </h1>
         </section>

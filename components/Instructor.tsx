@@ -15,7 +15,7 @@ export default function Instructor() {
 
                 <div className="flex-1 space-y-6">
                     <div>
-                        <p className="text-sm font-medium text-[#1F3D2B]/80">I'm Nat Nakkaew</p>
+                        <p className="text-sm font-medium text-[#1F3D2B]/80">I&apos;m Nat Nakkaew</p>
                         <h3 className="text-2xl md:text-3xl font-bold text-[#1F3D2B] mt-1">
                             aka <span className="text-[#0D3B66]">“Jarn Tum”</span>
                         </h3>

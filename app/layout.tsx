@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import { Martian_Mono } from "next/font/google"; // [NEW]
+
+const martianMono = Martian_Mono({ subsets: ["latin"] }); // [NEW]
+
 export const metadata: Metadata = {
   title: "Momentum Shooting Training Club",
   description: "Professional Firearms Training",
@@ -13,13 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet" />
-      </head>
       <body
-        className="antialiased"
+        className={`${martianMono.className} antialiased`}
       >
         {children}
       </body>

@@ -8,8 +8,7 @@ export default function CTA() {
                     If you want to <span className="font-bold">learn safe, disciplined</span>, and <span className="font-bold">tactical shooting</span>
                 </p>
                 <p className="text-2xl md:text-3xl font-bold text-[#1F3D2B] tracking-tight">
-                    {/* you're in the <span className="underline decoration-wavy decoration-[#1F3D2B]/30">right place</span> */}
-                    you're in the right place
+                    you&apos;re in the right place
                 </p>
                 <p className="text-xs text-[#1F3D2B]/60 mt-4 text-red-700">
                     *** Training is provided for educational and sporting purposes only ***
